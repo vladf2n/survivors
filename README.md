@@ -8,4 +8,4 @@ To acecss the Swagger Documentation after running the application: http://localh
 
 ## Tools
 
-``Spring Boot``, ``Spring MVC``, ``Flyway``, ``Junit 5``, ``Spring Data JPA``, ``Lombok``, ``H2`
+``Spring Boot``, ``Spring MVC``, ``Flyway``, ``Junit 5``, ``Spring Data JPA``, ``Lombok``, ``H2``
