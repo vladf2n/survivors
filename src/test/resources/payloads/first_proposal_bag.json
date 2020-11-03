@@ -1,0 +1,7 @@
+{
+    "supplyBags" : [
+        {"supply" : {"id": 1, "name": "Fiji Water", "points": 14}, "quantity" : 5},
+        {"supply" : {"id": 2, "name": "Campbell Soup", "points": 12}, "quantity" : 2},
+        {"supply" : {"id": 4, "name": "AK-47", "points": 8}, "quantity" : 3}
+    ]
+}

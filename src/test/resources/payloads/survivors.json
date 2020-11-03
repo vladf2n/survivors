@@ -1,0 +1,136 @@
+[
+    {
+      "name": "Albert Wesker",
+      "age": 40,
+      "gender": "Ouroboros",
+      "infected": true,
+      "lastLocation": {
+        "lat": "-35.000000",
+        "lng": "90.000000"
+      },
+      "supplies": [
+        {
+          "supplyId": 1,
+          "quantity": 13
+        },
+        {
+          "supplyId": 3,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Alice",
+      "age": 37,
+      "gender": "Clone",
+      "lastLocation": {
+        "lat": -35.000000,
+        "lng": 90.00000
+      },
+      "supplies": [
+        {
+          "supplyId": 2,
+          "quantity": 10
+        },
+        {
+          "supplyId": 4,
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "Leon S. Kennedy",
+      "age": 21,
+      "gender": "Cop",
+      "lastLocation": {
+        "lat": -35.000000,
+        "lng": 90.000000
+      },
+      "supplies": [
+        {
+          "supplyId": 1,
+          "quantity": 13
+        },
+        {
+          "supplyId": 3,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Jill Valentine",
+      "age": 28,
+      "gender": "Sandwitch",
+      "lastLocation": {
+        "lat": -35.000000,
+        "lng": 90.000000
+      },
+      "supplies": [
+        {
+          "supplyId": 1,
+          "quantity": 13
+        },
+        {
+          "supplyId": 3,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Claire Redfield",
+      "age": 19,
+      "gender": "Redfield",
+      "lastLocation": {
+        "lat": "-35.000000",
+        "lng": "90.000000"
+      },
+      "supplies": [
+        {
+          "supplyId": 1,
+          "quantity": 13
+        },
+        {
+          "supplyId": 3,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Ada Wong",
+      "age": 21,
+      "gender": "Spy",
+      "lastLocation": {
+        "lat": "-35.000000",
+        "lng": "90.000000"
+      },
+      "supplies": [
+        {
+          "supplyId": 1,
+          "quantity": 13
+        },
+        {
+          "supplyId": 3,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "Chris Redfield",
+      "age": 40,
+      "gender": "Boulder",
+      "lastLocation": {
+        "lat": "-35.000000",
+        "lng": "90.000000"
+      },
+      "supplies": [
+        {
+          "supplyId": 4,
+          "quantity": 6
+        },
+        {
+          "supplyId": 3,
+          "quantity": 10
+        }
+      ]
+    }
+]

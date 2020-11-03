@@ -1,0 +1,208 @@
+POST http://localhost:8080/api/umbrella/survivors
+Content-Type: application/json
+
+{
+  "name": "Albert Wesker",
+  "age": 40,
+  "gender": "Ouroboros",
+  "lastLocation": {
+    "lat": "-35.000000",
+    "lng": "90.000000"
+  },
+  "supplies": [
+    {
+      "supplyId": 1,
+      "quantity": 13
+    },
+    {
+      "supplyId": 3,
+      "quantity": 10
+    }
+  ]
+}
+
+### For example, 5 Fiji water and 5 first aid pouch (5 x 14 + 5 x 10) 
+### are worth 6 AK47 (6 x 8) plus 6 Cambell Soups (6 x 12)
+
+POST http://localhost:8080/api/umbrella/survivors
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "age": 37,
+  "gender": "Clone",
+  "lastLocation": {
+    "lat": -35.000000,
+    "lng": 90.00000
+  },
+  "supplies": [
+    {
+      "supplyId": 2,
+      "quantity": 10
+    },
+    {
+      "supplyId": 4,
+      "quantity": 6
+    }
+  ]
+}
+
+###
+
+GET http://localhost:8080/api/umbrella/survivors/2
+
+###
+
+POST http://localhost:8080/api/umbrella/trade-supplies
+Content-Type: application/json
+
+{
+  "proposals": [
+    {
+      "survivorId": 1,
+      "proposedItems": [
+        { "supplyId": 1, "quantity": 5 },
+        { "supplyId": 3, "quantity": 5 }
+      ]
+    }
+  ]
+}
+
+
+### Creating More Survivors
+
+POST http://localhost:8080/api/umbrella/survivors
+Content-Type: application/json
+
+{
+  "name": "Leon S. Kennedy",
+  "age": 21,
+  "gender": "Cop",
+  "lastLocation": {
+    "lat": "-35.000000",
+    "lng": "90.000000"
+  },
+  "supplies": [
+    {
+      "supplyId": 1,
+      "quantity": 13
+    },
+    {
+      "supplyId": 3,
+      "quantity": 10
+    }
+  ]
+}
+
+
+###
+
+POST http://localhost:8080/api/umbrella/survivors
+Content-Type: application/json
+
+{
+  "name": "Jill Valentine",
+  "age": 28,
+  "gender": "Sandwitch",
+  "lastLocation": {
+    "lat": "-35.000000",
+    "lng": "90.000000"
+  },
+  "supplies": [
+    {
+      "supplyId": 1,
+      "quantity": 13
+    },
+    {
+      "supplyId": 3,
+      "quantity": 10
+    }
+  ]
+}
+
+
+###
+
+POST http://localhost:8080/api/umbrella/survivors
+Content-Type: application/json
+
+{
+  "name": "Claire Redfield",
+  "age": 19,
+  "gender": "Redfield",
+  "lastLocation": {
+    "lat": "-35.000000",
+    "lng": "90.000000"
+  },
+  "supplies": [
+    {
+      "supplyId": 1,
+      "quantity": 13
+    },
+    {
+      "supplyId": 3,
+      "quantity": 10
+    }
+  ]
+}
+
+
+###
+
+POST http://localhost:8080/api/umbrella/survivors
+Content-Type: application/json
+
+{
+  "name": "Ada Wong",
+  "age": 21,
+  "gender": "Spy",
+  "lastLocation": {
+    "lat": "-35.000000",
+    "lng": "90.000000"
+  },
+  "supplies": [
+    {
+      "supplyId": 1,
+      "quantity": 13
+    },
+    {
+      "supplyId": 3,
+      "quantity": 10
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/api/umbrella/survivors
+Content-Type: application/json
+
+{
+  "name": "Chris Redfield",
+  "age": 40,
+  "gender": "Boulder",
+  "lastLocation": {
+    "lat": "-35.000000",
+    "lng": "90.000000"
+  },
+  "supplies": [
+    {
+      "supplyId": 4,
+      "quantity": 6
+    },
+    {
+      "supplyId": 3,
+      "quantity": 10
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/api/umbrella/survivors/2/infected
+User-Id: 6
+
+
+###
+
+GET http://localhost:8080/api/umbrella/statistics

@@ -1,0 +1,18 @@
+{
+    "proposals" : [
+        {
+            "survivorId" : 2,
+            "proposedItems" : [
+                {"supplyId": 1, "quantity" : 1},
+                {"supplyId": 3, "quantity" : 2}
+            ]
+        },
+        {
+            "survivorId" : 3,
+            "proposedItems" : [
+                {"supplyId": 2, "quantity" : 10},
+                {"supplyId": 4, "quantity" : 6}
+            ]
+        }
+    ]
+}

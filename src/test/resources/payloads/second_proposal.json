@@ -1,0 +1,19 @@
+{
+    "name": "Alice",
+    "age": 37,
+    "gender": "Clone",
+    "lastLocation": {
+      "lat": -35.000000,
+      "lng": 90.00000
+    },
+    "supplies": [
+      {
+        "supplyId": 2,
+        "quantity": 10
+      },
+      {
+        "supplyId": 4,
+        "quantity": 6
+      }
+    ]
+  }
