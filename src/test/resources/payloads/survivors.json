@@ -2,7 +2,7 @@
     {
       "name": "Albert Wesker",
       "age": 40,
-      "gender": "Ouroboros",
+      "gender": "Male",
       "infected": true,
       "lastLocation": {
         "lat": "-35.000000",
@@ -22,7 +22,7 @@
     {
       "name": "Alice",
       "age": 37,
-      "gender": "Clone",
+      "gender": "Female",
       "lastLocation": {
         "lat": -35.000000,
         "lng": 90.00000
@@ -41,7 +41,7 @@
     {
       "name": "Leon S. Kennedy",
       "age": 21,
-      "gender": "Cop",
+      "gender": "Male",
       "lastLocation": {
         "lat": -35.000000,
         "lng": 90.000000
@@ -60,7 +60,7 @@
     {
       "name": "Jill Valentine",
       "age": 28,
-      "gender": "Sandwitch",
+      "gender": "Female",
       "lastLocation": {
         "lat": -35.000000,
         "lng": 90.000000
@@ -79,7 +79,7 @@
     {
       "name": "Claire Redfield",
       "age": 19,
-      "gender": "Redfield",
+      "gender": "Male",
       "lastLocation": {
         "lat": "-35.000000",
         "lng": "90.000000"
@@ -98,7 +98,7 @@
     {
       "name": "Ada Wong",
       "age": 21,
-      "gender": "Spy",
+      "gender": "Female",
       "lastLocation": {
         "lat": "-35.000000",
         "lng": "90.000000"
@@ -117,7 +117,7 @@
     {
       "name": "Chris Redfield",
       "age": 40,
-      "gender": "Boulder",
+      "gender": "Male",
       "lastLocation": {
         "lat": "-35.000000",
         "lng": "90.000000"
